@@ -4,6 +4,8 @@ Example of using IP address to location lookup from [Allies](https://www.alliesc
 
 You can add new content using simple if statements:-
 
-  if (geoip.iso2code == "US") {
-		change_welcome_text("Welcome, shipping to USA costs $10",geoip.iso2code);
-	}
+```javascript
+if (geoip.iso2code == "US") {
+	change_welcome_text("Welcome, shipping to USA costs $10",geoip.iso2code);
+}
+```
